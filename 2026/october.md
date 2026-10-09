@@ -35,3 +35,28 @@ At this point ChatGPT basically became my coworker/mentor and had me walk throug
 And...voila!!!! For real, voila! I had a site live! **Have** a site live!
 
 Well. Sort of. When I try to log in to the admin CMS area, I'm getting yet another error -- this time a 419 saying that my session has expired. I'm having to change a few things in the env file and run some commands to clear the cached configurations, and right now it's 10:22 pm, so, past quittin' time. I'll get back to this tomorrow. And hopefully be able to get into the admin panel and do admin-y stuff!
+
+## October 9
+
+This morning I hopped onto my computer to fix the session issue. My clearer head (and less of an "I need to get this done *while* cooking dinner so I can leave for book club on time!" level of urgency) helped me easily figure out how to ssh into my Bluehost account, where I ran the last of the commands ChatGPT was instructing me to run. Five minutes later it was all done. I logged onto the website, put my credentials in, and voila. (Side note, do I use "and voila" too much?) I was in to the admin area! Wahooooo!
+
+So now it's 8:20 am and the question is, what do I *do* today? My site is live! Kinda! All the hard work is done! Close this iteration, go home, enjoy the weekend!
+
+Well. First of all, I've learned a lot of things about what needs to happen to get the site from my local desktop and onto Bluehost. The manual deployment process has definitely helped me to understand what needs to go into my CD workflow to get everything at least staged for putting onto Bluehost. Like the following:
+
+- Some commands need run
+- The .env file needs to be changed for the environment
+- The files need zipped
+- Everything needs to be put onto Bluehost, somehow, and unzipped.
+
+I also need to set up Stripe, but that wasn't technically part of this iteration, so I think it can wait until next week. With those marching orders, I shall make myself a second cup of coffee, do a quick workout in the frigid garage gym, and set to work!
+
+(Eight..hours...later...)
+
+Well, it ended up being sort of a scattershot day. My client (read: my husband) decided that maybe ChurchCMS isn't the way to go and that we should try out a few other free CMS options, but one of them would require hosting on Azure, so that would be even more costs, and the other one is not cloud-hosted, so I think it's just software to download. I'm not sure.
+
+So I decided to pivot to creating a new personal project, the idea for which came to me in the car about a week ago. I'm calling it Pick Up Your Socks for now, because my kids never pick up their darn socks! And this is about structuring habit creation over 6 week increments. Including, yes, picking up socks.
+
+What I have so far is a react/typescript/vite (? what is vite?) frontend and a C#/.NET backend, along with a *very* rudimentary App.tsx file that calls a *very* rudimentary API defined in the Program.cs file and returns an object, which is then plugged into a div via useState. But hey! The front is talking to the back! Maybe on Monday I can set up a database and really get cooking!
+
+For now, that's it. I've got a half hour before I get the kids from school, and I still need to shower. The weekend has unofficially-officially arrived. I've got fish to fry, mazes to corn, pumpkins to carve, a life outside code to live.
