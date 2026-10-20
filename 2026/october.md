@@ -60,3 +60,17 @@ So I decided to pivot to creating a new personal project, the idea for which cam
 What I have so far is a react/typescript/vite (? what is vite?) frontend and a C#/.NET backend, along with a *very* rudimentary App.tsx file that calls a *very* rudimentary API defined in the Program.cs file and returns an object, which is then plugged into a div via useState. But hey! The front is talking to the back! Maybe on Monday I can set up a database and really get cooking!
 
 For now, that's it. I've got a half hour before I get the kids from school, and I still need to shower. The weekend has unofficially-officially arrived. I've got fish to fry, mazes to corn, pumpkins to carve, a life outside code to live.
+
+## October 20
+
+How quickly my weekend turned into a week...and then half of another...
+
+I found that I had spent *too* much time doing dev work, so I tried to dial it back last week and also deal with some interview stuff, but that turned into me completely neglecting dev work. Then my grandmother died, so I lost the second half of thhe week to travel to and from Canada, so now here I am! Back at it. I don't have big goals this week. To revisit my Pick Up Your Socks project board, the goal of the first iteration is to create an authentication flow and the ability for a user to create a goal list.
+
+Where I left off was creating a database. Which, I suppose I should do that today. Get some data persistance going. 
+
+Once again, ChatGPT ends up being a bit of a senior dev/mentor when I get frozen in the how-to of database selection and setup. It walks me through installing SQLite, updating my .NET SDK when that proves to be a problem, and getting my first DB set up and running. Because nothing is ever as smooth as it should be, I end up needing to download a new version of Visual Studio, because updating to .NET 10.whatever means my project no longer works with Visual Studio 2022. *Which then means* (yes, it gets more convoluted) that I need to go through the whole process of setting up Azure, because apparently you can no longer just like...download Visual Studio without a *whole* bunch of multi-factor verfifications and a credit card backing you. (BUT DON'T WORRY, it's all free, they assure me. Until it's not, am I right?)
+
+Since I'm on a Mac, it all ends up being moot. There is no Visual Studio for Mac support beyond a certain point. ChatGPT recommends I use Visual Studio Code, which was what I was already using for the client part of this project.
+
+With that, I need to pause to take a shower and get the kids from school. Tomorrow, it seems, will be the day I finish getting the database set up properly.
