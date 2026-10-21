@@ -74,3 +74,26 @@ Once again, ChatGPT ends up being a bit of a senior dev/mentor when I get frozen
 Since I'm on a Mac, it all ends up being moot. There is no Visual Studio for Mac support beyond a certain point. ChatGPT recommends I use Visual Studio Code, which was what I was already using for the client part of this project.
 
 With that, I need to pause to take a shower and get the kids from school. Tomorrow, it seems, will be the day I finish getting the database set up properly.
+
+## October 21
+
+I'm back at it early again this morning, mostly as a coping mechanism -- we've got a big scary school meeting at 11:30 about our son, and some struggles he's having. I'm not exactly worried that they'll kick him out, but at the same time, a meeting with OT, the school psychologist, the head of elementary, and his teacher just seems like...a lot of people in the room, and all for one kid.
+
+SHOVING THAT TO THE BACK OF MY BRAIN, THOUGH, once again ChatGPT proves itself to be an excellant mentor. I finish getting my DB set up and built, along with my first GET request, and voila! An endpoint that retrieves from an empty database! Cool beans!
+
+ChatGPT then walks me through writing all the standard CRUD operations: create, update/post, delete. And when I say "walks me through" I do mean write the code for me, while explaining what each line is for. It feels like cheating but also it's not? I'm learning, and without a lot of the forehead-banging and hair-pulling I would have been doing otherwise. I mean, I get four API endpoints plus two DTOs written in under an hour. Not bad at all.
+
+I also learn about `curl`, and sending API requests via command line! Pretty stinking cool. Don't even need to get Postman involved to start passing stuff into the database.
+
+I do notice pretty quickly that we're saving stuff to the database via the controller, and my Catalyte knowledge comes back to me enough that I question why we're not accessing the database via repository -- let alone controlling the business logic via a service layer. ChatGPT tells me that will all come later -- right now we're keeping things as simple as possible, and when we need to build out the services and repositories, we will do that. At this point, I'm blindly trusting my mentor. It's fine.
+
+At the end of the session I ask my mentor what we'll be working on tomorrow. Apparently, the answer is:
+
+- Reviewing the architecture (which is pretty basic, I don't feel like I need to review it much)
+- Adding a service layer + interface and dependency injection (woooo!)
+- Deciding whether we do indeed need a repository
+- Creating some automated tests
+
+I'm actually super pumped about this. Darn AI is getting addictive.
+
+P.S. The meeting at the school was *fine*. He is not getting kicked out yet. ;) Everyone reiterated how great of a kid he is and how he is in the best possible place he can be. Which, I agree with. It's amazing to have a school that is actually working with him in overcoming his issues.
