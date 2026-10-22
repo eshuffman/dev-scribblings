@@ -97,3 +97,15 @@ At the end of the session I ask my mentor what we'll be working on tomorrow. App
 I'm actually super pumped about this. Darn AI is getting addictive.
 
 P.S. The meeting at the school was *fine*. He is not getting kicked out yet. ;) Everyone reiterated how great of a kid he is and how he is in the best possible place he can be. Which, I agree with. It's amazing to have a school that is actually working with him in overcoming his issues.
+
+## October 22
+
+I spend most of today Getting My Life Back In Order (And Beating the Clock Whie I'm At It), so I don't even get a chance to sit down and pick up my proverbial socks until after dinner.
+
+It's a very drama-free hour. ChatGPT walks me through creating a service layer and then a repository as well. By the end of it I'm sending a bunch of curl requests, and it's then that I realize...I shouldn't be sending these requests via command line! I should let tests handle them!
+
+ChatGPT thinks we're going to spend tomorrow creating some frontend functionality. Since I'm the driver here with the actual human soul, my plan is to created some automated tests. And you know what ChatGPT is going to say?
+
+"[You're absolutely right](https://techmerch.io/products/youre-absolutely-right)."
+
+Also, I realized that I haven't committed like...anything. So I'm off to do that now, before my laptop goes up in flames and I lose all of this beautiful work.
