@@ -109,3 +109,17 @@ ChatGPT thinks we're going to spend tomorrow creating some frontend functionalit
 "[You're absolutely right](https://techmerch.io/products/youre-absolutely-right)."
 
 Also, I realized that I haven't committed like...anything. So I'm off to do that now, before my laptop goes up in flames and I lose all of this beautiful work.
+
+## October 23
+
+I start the day with a big hairy merge conflict. Because of course. Git is like hair. It needs to be combed through on a regular basis (committed, pushed, and merged, I mean) or else risk tangling to the point of needing to go nuclear and pull out the scissors to fix the issue.
+
+The issue seems to have stemmed from a combination of switching dotnet frameworks halfway through + somehow some very important files (csproj, Program.cs) not getting committed and pushed yesterday. ChatGPT holds my hand through the entire thing, and before I know it, we're back in business. I decided to go with its plan of getting the frontend basically functional before adding tests, and boom -- I see three goals rendered in the ugliest way possible. Woohoo!
+
+Oh, back up though -- I was actually having some frontend issues which I realize stem from the fact that I'm trying to read an incoming array of goals objects without actually having the type Goal defined in, ahem, Typescript. So I add that and -- ugly!
+
+I realize toward the end of my session (it's now 11:13 anad I still need to exercise/do other things that need done today, I can't let this eat up my *entire* day, as much as I want it to) that ChatGPT is just handing me everything on a silver platter. I'm missing out on the struggle. Which. I understand that this is AI-driven development. Coding of the future. But at the same time, I actually want to struggle a bit. I think it will cement the learning a bit better. Make componants. Organize my file tree. Though, maybe that can all come later. Maybe for now I just let it help me with the basics, get a skeleton on the screen, and then iterate on it.
+
+Oh, I'm forgetting. I also want to try out Storybook! So many technologies...so little time.
+
+For now: a second cup of coffee, a workout, and some personal blogging. More sock work to come later.
